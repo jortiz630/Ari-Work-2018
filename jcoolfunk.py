@@ -179,3 +179,4 @@ def changingRadsCyl(radius,tHot,metallicity):
 def changingRadsSph(radius,tHot,metallicity):
     return (((10**(3))/tempSph(radius,tHot))**2) * coolingFunctionSph(radius, tHot, metallicity)
 #----------------------#
+def 
